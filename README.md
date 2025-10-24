@@ -114,6 +114,26 @@ Once executed, your default browser will open the Streamlit dashboard for real-t
 
 Deployment: Upload the project repository to GitHub and deploy the application using [Streamlit Cloud](https://share.streamlit.io/).
 
+## 🛠️ How the Apps Work
+
+Churn App (`churn_app.py`)
+* Model & Preprocessing: Loads `churn_prediction.h5` and preprocessing artifacts from `churn_prediction_models/` (`le_gender.pkl`, `ohe_geo.pkl`, `scaler.pkl`).
+
+* **Input**: Geography, Gender, CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
+
+* **Processing**: Encodes categorical features, scales numeric features, and predicts churn probability.
+
+* Output: Displays probability with thresholded message (`prob > 0.5 → churn likely`).
+
+Salary App (`salary_app.py`)
+
+* Model & Preprocessing: Loads `salary_prediction_model.h5` and artifacts from `salary_prediction_models/` (`le_gender_salary.pkl`, `ohe_geo_salary.pkl`, `scaler_salary.pkl`).
+
+* **Input**: Same features as churn app.
+
+* **Processing**: Encodes & scales features, predicts salary.
+
+* **Output**: Displays the predicted salary.
 
 
 
