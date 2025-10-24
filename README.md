@@ -72,9 +72,9 @@ Before running the apps, ensure the following:
 
 * Preprocessing artifacts exist in their respective folders:
 
-* Churn: `churn_prediction_models`/`ohe_geo.pkl`, `le_gender.pkl`, `scaler.pkl`
+      * Churn: `churn_prediction_models`/`ohe_geo.pkl`, `le_gender.pkl`, `scaler.pkl`
 
-* Salary: `salary_prediction_models`/`ohe_geo_salary.pkl`, `le_gender_salary.pkl`, `scaler_salary.pkl`
+      * Salary: `salary_prediction_models`/`ohe_geo_salary.pkl`, `le_gender_salary.pkl`, `scaler_salary.pkl`
 
 `requirements.txt` is installed in your Python environment.
 
@@ -113,6 +113,7 @@ streamlit run salary_app.py
 Once executed, your default browser will open the Streamlit dashboard for real-time predictions.
 
 Deployment: Upload the project repository to GitHub and deploy the application using [Streamlit Cloud](https://share.streamlit.io/).
+
 
 
 
