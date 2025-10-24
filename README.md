@@ -96,7 +96,8 @@ streamlit run salary_app.py
 ```
 Once executed, your default browser will open the Streamlit dashboard for real-time predictions.
 
-Deployment: Push the repo to GitHub and deploy via [Streamlit Cloud](https://share.streamlit.io/).
+Deployment: Upload the project repository to GitHub and deploy the application using [Streamlit Cloud](https://share.streamlit.io/).
+
 
 
 
