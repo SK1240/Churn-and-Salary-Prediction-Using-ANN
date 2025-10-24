@@ -64,6 +64,22 @@ ANN-Churn-and-Salary-Prediction/
 | 📦 Pickle (.pkl)                     |            Saving preprocessing models |
 | 📈 Matplotlib / Seaborn              |            Data visualization |
 
+## 🧭 Config Checks Before Running
+
+Before running the apps, ensure the following:
+
+* `churn_prediction.h5` and `salary_prediction_model.h5` are present in the repo root.
+
+* Preprocessing artifacts exist in their respective folders:
+
+* Churn: `churn_prediction_models`/`ohe_geo.pkl`, `le_gender.pkl`, `scaler.pkl`
+
+* Salary: `salary_prediction_models`/`ohe_geo_salary.pkl`, `le_gender_salary.pkl`, `scaler_salary.pkl`
+
+`requirements.txt` is installed in your Python environment.
+
+If retraining locally, maintain the same feature order used when saving the scaler for consistent inference.
+
 ## 🔧 Setup & Installation
 
 ### 1.Clone this repository: 
@@ -97,6 +113,7 @@ streamlit run salary_app.py
 Once executed, your default browser will open the Streamlit dashboard for real-time predictions.
 
 Deployment: Upload the project repository to GitHub and deploy the application using [Streamlit Cloud](https://share.streamlit.io/).
+
 
 
 
