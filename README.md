@@ -55,14 +55,15 @@ ANN-Churn-and-Salary-Prediction/
 
 ## ⚙️ Tech Stack
 
-| Component | Description |
+| Component                            |            Description |
 |-----------|------------|
-| 🧠 Keras / TensorFlow | Model building and training (ANN) |
-| 📊 Scikit-learn | Data preprocessing and encoding |
-| 🥣 Pandas / NumPy | Data wrangling |
-| 🎨 Streamlit | Web app deployment |
-| 📦 Pickle (.pkl) | Saving preprocessing models |
-| 📈 Matplotlib / Seaborn | Data visualization |
+| 🧠 Keras / TensorFlow                |            Model building and training (ANN) |
+| 📊 Scikit-learn                      |            Data preprocessing and encoding |
+| 🥣 Pandas / NumPy                    |            Data wrangling |
+| 🎨 Streamlit                         |            Web app deployment |
+| 📦 Pickle (.pkl)                     |            Saving preprocessing models |
+| 📈 Matplotlib / Seaborn              |            Data visualization |
+
 
 
 
