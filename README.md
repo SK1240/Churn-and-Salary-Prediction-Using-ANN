@@ -84,6 +84,22 @@ source venv/bin/activate    # For macOS/Linux
 pip install -r requirements.txt
 ```
 
+## 🧠 Run the Apps
+### 🎯 Run Churn Prediction App
+```
+streamlit run churn_app.py
+```
+
+### 💰 Run Salary Prediction App
+```
+streamlit run salary_app.py
+```
+Once executed, your default browser will open the Streamlit dashboard for real-time predictions.
+Deployment: Push the repo to GitHub and deploy via (Streamlit Cloud)[https://share.streamlit.io/].
+
+
+
+
 
 
 
