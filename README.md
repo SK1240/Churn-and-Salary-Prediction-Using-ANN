@@ -160,6 +160,17 @@ Preprocessing:
 
 * Numeric features scaled with StandardScaler
 
+## 🏁 Deployment Ready
+
+Each Streamlit app uses:
+
+* Pre-saved `.pkl` encoders/scalers
+
+* Loaded `.h5` ANN models
+
+* Automated preprocessing & prediction logic
+
+
 
 
 
