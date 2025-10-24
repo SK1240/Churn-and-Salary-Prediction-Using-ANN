@@ -135,6 +135,34 @@ Salary App (`salary_app.py`)
 
 * **Output**: Displays the predicted salary.
 
+## 📈 Model Training
+Both models were trained on structured tabular data:
+
+   Churn Model: Trained using `Churn_Modelling.csv`
+
+   Salary Model: Trained on preprocessed synthetic employee datasets
+
+Architecture:
+
+Input Layer: 
+   Encoded categorical and numerical features
+
+Hidden Layers: 
+   Fully connected layers with ReLU activation
+
+Output Layer:
+
+   **Sigmoid** for churn classification
+
+   **Linear** for salary regression
+
+Preprocessing:
+
+Categorical features encoded with LabelEncoder and OneHotEncoder
+
+Numeric features scaled with StandardScaler
+
+
 
 
 
