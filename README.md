@@ -64,7 +64,25 @@ ANN-Churn-and-Salary-Prediction/
 | 📦 Pickle (.pkl)                     |            Saving preprocessing models |
 | 📈 Matplotlib / Seaborn              |            Data visualization |
 
+## 🔧 Setup & Installation
 
+### 1.Clone this repository: 
+```
+git clone https://github.com/SK1240/Churn-and-Salary-Prediction-Using-ANN.git
+cd ANN-Churn-and-Salary-Prediction
+```
+
+### 2.Create and activate a virtual environment (optional but recommended):
+```
+python -m venv venv
+venv\Scripts\activate       # For Windows
+source venv/bin/activate    # For macOS/Linux
+```
+
+### 3.Install the dependencies:
+```
+pip install -r requirements.txt
+```
 
 
 
