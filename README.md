@@ -171,6 +171,13 @@ Each Streamlit app uses:
 * Automated preprocessing & prediction logic
 
 
+## 🧾 License
+
+This project is for educational and portfolio purposes.
+You’re welcome to fork and extend it for experimentation and learning.
+
+
+
 
 
 
